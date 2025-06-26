@@ -18,9 +18,10 @@
         "SQL"
       ],
       "frameworksAndLibraries": [
-        "Flutter",
         "ASP.NET",
-        "JavaFX"
+        "Bootstrap",
+        "Flutter",
+        "JavaFX",
       ],
       "toolsAndTechnologies": [
         "Git",
