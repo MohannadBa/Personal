@@ -1,0 +1,74 @@
+{
+    "personalInfo": {
+      "name": "Mohanad Ba Mehriz",
+      "title": "Software Engineering Student",
+      "email": "mohannad.b1435@gmail.com",
+      "phone": "+966546825604",
+      "location": "Jeddah, Saudi Arabia",
+      "aboutMe": "A passionate Software Engineering student. \nSkilled in multiple programming languages and frameworks,\nI enjoy building innovative solutions and contributing to impactful projects."
+    },
+    "technicalSkills": {
+      "languages": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Java",
+        "C++",
+        "Dart",
+        "SQL"
+      ],
+      "frameworksAndLibraries": [
+        "Flutter",
+        "ASP.NET",
+        "JavaFX"
+      ],
+      "toolsAndTechnologies": [
+        "Git",
+        "GitHub",
+        "Firebase",
+        "Database Management Systems"
+      ],
+      "otherSkills": [
+        "Object-Oriented Programming (OOP)",
+        "Data Structures & Algorithms",
+        "Web Development",
+        "Mobile Development"
+      ]
+    },
+    "recentProjects": [
+      {
+        "title": "WeCourses Website",
+        "description": "Developed a web application for tracking courses. \n Collabrated with my teammate to design and implement interactive features that improved usability, including course progress tracking and a clean, responsive user interface.",
+        "technologiesUsed": ["HTML", "CSS", "JavaScript"],
+        "githubLink": "https://github.com/MohannadBa/Web-project",
+        "liveDemoLink": "https://mohannadba.github.io/Web-project/"
+      },
+      {
+        "title": "CimaTick Mobile App",
+        "description": "As part of a team project with my classmates, I developed a Flutter & Firebase-based mobile application for booking cinema tickets. The app streamlines the entire user experience from browsing movies and selecting showtimes and seats, to securing tickets in real time.",
+        "technologiesUsed": ["Flutter", "Firebase", "Dart"],
+        "githubLink": "https://github.com/MohannadBa/CimaTick",
+        "liveDemoLink": "https://project-two.example.com"
+      },
+      {
+        "title": "Hospital System",
+        "description": "Collaborated with teammates to develop a hospital management system using ASP.NET and C#, The system includes patient registration, appointment scheduling, and an administrative dashboard for real-time management.",
+        "technologiesUsed": ["ASP.NET", "C#", "SQL Server"],
+        "githubLink": "https://github.com/MohannadBa/HospitalSys",
+        "liveDemoLink": ""
+      }
+    ],
+    "links": {
+      "github": "https://github.com/MohannadBa",
+      "linkedin": "https://www.linkedin.com/in/mohanad-ba-mehriz-6a7169307/",
+      "portfolioWebsite": "https://yourportfolio.com"
+    },
+    "stylingPreferences": {
+      "generalPalette": "light-blue-and-white-with-gradients",
+      "fontFamily": "Inter, sans-serif",
+      "borderRadius": "rounded-lg",
+      "shadows": "soft-shadows-on-cards",
+      "sectionSeparation": "subtle-dividers-or-cards"
+    }
+  }
+  

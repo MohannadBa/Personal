@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="pageTitle">Software Engineering Student Portfolio</title>
+    
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Animation Canvas -->
+    <canvas id="backgroundCanvas"></canvas>
+    
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="profile-card">
+                <div class="profile-header">
+                    <div class="avatar-container">
+                        <img id="avatar" src="https://via.placeholder.com/120x120/1f1f1f/c4f82a?text=MB" alt="Profile Picture" class="avatar">
+                    </div>
+                    <h1 id="name" class="name">Loading...</h1>
+                    <h2 id="title" class="title">Loading...</h2>
+                    <p id="location" class="location">Loading...</p>
+                    <p id="aboutMe" class="about-me">Loading...</p>
+                </div>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <a id="email" href="mailto:" class="contact-link">Loading...</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📱</span>
+                        <a id="phone" href="tel:" class="contact-link">Loading...</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Skills Section -->
+        <section class="section">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Programming Languages</h3>
+                    <div id="languages" class="skill-tags"></div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Frameworks & Libraries</h3>
+                    <div id="frameworks" class="skill-tags"></div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Tools & Technologies</h3>
+                    <div id="tools" class="skill-tags"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section">
+            <h2 class="section-title">Recent Projects</h2>
+            <div id="projects" class="projects-grid">
+                <!-- Projects will be populated by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Links Section -->
+        <section class="section">
+            <h2 class="section-title">Connect With Me</h2>
+            <div id="socialLinks" class="social-links">
+                <!-- Social links will be populated by JavaScript -->
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
