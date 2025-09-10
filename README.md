@@ -4,19 +4,12 @@ A responsive, modern personal website for software engineering students and tech
 
 ## Features
 
-- 🎨 **Dark Theme**: Modern dark background with accent colors
 - 📱 **Responsive Design**: Works perfectly on desktop, tablet, and mobile
 - 🎯 **Centered Card Layout**: Clean, focused design with rounded corners
 - ✨ **Smooth Animations**: Hover effects and transitions for better UX
 - 🔗 **Social Media Integration**: Dynamic social links with platform icons
 - 📝 **JSON Configuration**: Easy to customize via `info.json` file
 - 🖼️ **Profile Image Support**: Custom avatar with fallback placeholder
-
-## Quick Start
-
-1. **Open the website**: Simply open `index.html` in your web browser
-2. **Customize your profile**: Edit the `info.json` file with your information
-3. **Add your photo**: Replace the placeholder image with your actual profile picture
 
 ## Customization
 
@@ -123,9 +116,7 @@ MyWebsite/
 You can deploy this website to any static hosting service:
 
 - **GitHub Pages**: Push to a GitHub repository and enable Pages
-- **Netlify**: Drag and drop the folder to Netlify
 - **Vercel**: Connect your GitHub repository
-- **Firebase Hosting**: Use Firebase CLI to deploy
 
 ## Local Development
 
@@ -133,14 +124,7 @@ To run the website locally:
 
 1. Clone or download the files
 2. Open `index.html` in your browser
-3. Or use a local server:
-   ```bash
-   # Using Python
-   python -m http.server 8000
-   
-   # Using Node.js
-   npx serve .
-   ```
+
 
 ## Customization Tips
 
@@ -150,10 +134,4 @@ To run the website locally:
 4. **Layout**: Adjust padding and margins for different screen sizes
 5. **Animations**: Modify transition durations and effects
 
-## License
-
-This project is open source and available under the MIT License.
-
----
-
-Made with ❤️ for developers and tech enthusiasts 
+Made with ❤️
